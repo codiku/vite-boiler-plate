@@ -1,4 +1,9 @@
-import { Box } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
+
 export const Home = () => {
-  return <Box>Vite boiler plate is working</Box>;
+  return (
+    <Box>
+      <Text fontSize={"2xl"}>Vite boiler plate is working</Text>
+    </Box>
+  );
 };
